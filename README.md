@@ -29,5 +29,5 @@ THEN the saved events persist
 
 ## Deployement
 
-https://saubby.github.io/Scheduler/
-https://github.com/saubby/Scheduler
+https://saubby.github.io/Workday-Scheduler/
+https://github.com/saubby/Workday-Scheduler
