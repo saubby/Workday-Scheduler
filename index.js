@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 
-    var tf = moment().format('dddd, MMMM do YYYY');
+    var tf = moment().format("MMMM Do YYYY");
     let cd = document.getElementById("today");
     cd.innerHTML = tf;
     var a = moment().format("HH");
