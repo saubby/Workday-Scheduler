@@ -1,0 +1,92 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #e6ecee;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.container {
+    max-width: 1024px;
+}
+
+textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: rgb(82, 82, 82);
+    border-left: 1px solid rgb(44, 44, 44);
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.heading {
+    background: linear-gradient(to right, #5c223f, #f76767);
+    text-align: center;
+    color: rgb(15, 15, 15);
+    border-radius: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    border-bottom: 10px solid rgb(82, 82, 82);
+}
+
+#clearFieldsBtn {
+    margin-top: 10px;
+}
+
+.description {
+    white-space: pre-wrap;
+    font-weight: 600;
+}
+
+.time-block {
+    text-align: center;
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+}
+
+.hour {
+    background-color: #0f314175;
+    color: rgb(14, 13, 13);
+    padding-top: 27px;
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.past {
+    background-color: #dfe6e9;
+    border-radius: 15px;
+    color: white;
+}
+
+.present {
+    background-color: #a55555;
+    border-radius: 15px;
+}
+
+.future {
+    background-color: #f57af5;
+    border-radius: 15px;
+}
+
+.saveBtn {
+    border-left: 1px solid rgb(82, 82, 82);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #642525;
+    color: rgb(231, 225, 225);
+}
+
+.saveBtn i:hover {
+    font-size: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.white-text {
+    color: white;
+}
